@@ -28,7 +28,7 @@
 
 ## 🌐 Overview
 
-**EcoClaw** is a cost-saving plugin for [OpenClaw](https://github.com/nicepkg/openclaw). It automatically picks the cheapest model that gets the job done for each prompt, based on real benchmark scores from [PinchBench](https://github.com/pinchbench/leaderboard).
+**EcoClaw** is a cost-saving plugin for [OpenClaw](https://github.com/nicepkg/openclaw). It automatically picks the cheapest model that gets the job done for each prompt, based on real benchmark scores from [PinchBench](https://pinchbench.com/?view=graphs).
 
 ### 🌟 Highlights
 
@@ -234,7 +234,7 @@ openclaw plugins uninstall EcoClaw
 
 ## Acknowledgments
 
-This project is built on top of [PinchBench](https://github.com/pinchbench/leaderboard). Thanks to the PinchBench team for providing high-quality LLM evaluation data.
+This project is built on top of [PinchBench](https://pinchbench.com/?view=graphs). Thanks to the PinchBench team for providing high-quality LLM evaluation data.
 
 ## Research & Citation
 

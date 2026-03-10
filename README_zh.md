@@ -28,7 +28,7 @@
 
 ## 🌐 概述
 
-**EcoClaw** 是一款面向 [OpenClaw](https://github.com/nicepkg/openclaw) 的省钱插件。它基于 [PinchBench](https://github.com/pinchbench/leaderboard) 真实评测数据，自动为每条 prompt 匹配便宜又好用的模型。
+**EcoClaw** 是一款面向 [OpenClaw](https://github.com/nicepkg/openclaw) 的省钱插件。它基于 [PinchBench](https://pinchbench.com/?view=graphs) 真实评测数据，自动为每条 prompt 匹配便宜又好用的模型。
 
 ### 🌟 核心特性
 
@@ -260,7 +260,7 @@ openclaw plugins uninstall EcoClaw
 
 ## 致谢
 
-本项目基于 [PinchBench](https://github.com/pinchbench/leaderboard) 构建，感谢 PinchBench 团队提供高质量的 LLM 评测数据。
+本项目基于 [PinchBench](https://pinchbench.com/?view=graphs) 构建，感谢 PinchBench 团队提供高质量的 LLM 评测数据。
 
 ## 研究背景与引用
 
