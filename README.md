@@ -28,7 +28,7 @@
 
 ## 🌐 Overview
 
-**EcoClaw** is a cost-saving plugin for [OpenClaw](https://github.com/nicepkg/openclaw). It automatically picks the cheapest model that gets the job done for each prompt, based on real benchmark scores from [PinchBench](https://pinchbench.com/?view=graphs).
+**EcoClaw** is a cost-saving plugin for [OpenClaw](https://github.com/nicepkg/openclaw). It automatically picks the cheapest model that gets the job done for each task, based on real benchmark scores from [PinchBench](https://pinchbench.com/?view=graphs).
 
 ### 🌟 Highlights
 
@@ -96,6 +96,15 @@ User Prompt
 | `ecoclaw/best` | Quality-first | 99% | 1% | Picks the best model per task — still up to 80% cheaper than always using the top model |
 | `ecoclaw/balance` | Balanced (default) | 50% | 50% | Sweet spot: 96% cheaper with near-top quality |
 | `ecoclaw/eco` | Cost-first | 20% | 80% | Maximum savings — up to 98% cheaper |
+
+
+## ⚡ EcoClaw vs ClawRouter
+
+| | EcoClaw | ClawRouter |
+|---|---|---|
+| **Routing** | Smart — picks the best cheap model for each task using real benchmark scores | Static — keyword rules with hardcoded model mapping |
+| **Billing** | Standard OpenRouter API key | Crypto wallet + USDC micropayments (x402) |
+| **Setup** | Just `npm install` | Set up a wallet, fund it with USDC |
 
 ## 🚀 Quick Start
 

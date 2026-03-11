@@ -4,7 +4,7 @@
 
 <h2 align="center">
   EcoClaw：一个插件，省下 90% 的 LLM 费用<br>
-  <sub>自动为每条 prompt 匹配便宜又好用的模型，基于真实评测数据驱动。</sub>
+  <sub>自动为每个任务匹配便宜又好用的模型，基于真实评测数据驱动。</sub>
 </h2>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 ## 🌐 概述
 
-**EcoClaw** 是一款面向 [OpenClaw](https://github.com/nicepkg/openclaw) 的省钱插件。它基于 [PinchBench](https://pinchbench.com/?view=graphs) 真实评测数据，自动为每条 prompt 匹配便宜又好用的模型。
+**EcoClaw** 是一款面向 [OpenClaw](https://github.com/nicepkg/openclaw) 的省钱插件。它基于 [PinchBench](https://pinchbench.com/?view=graphs) 真实评测数据，自动为每个任务匹配便宜又好用的模型。
 
 ### 🌟 核心特性
 
@@ -89,6 +89,7 @@
 └─────────────────────────────────────────────┘
 ```
 
+
 ## 🎯 省钱策略
 
 | 模型 ID | 策略 | 质量权重 | 成本权重 | 说明 |
@@ -96,6 +97,15 @@
 | `ecoclaw/best` | 质量优先 | 99% | 1% | 每个任务选最强模型 — 相比全程用顶级模型，最多省 80% |
 | `ecoclaw/balance` | 均衡（默认） | 50% | 50% | 最佳平衡点：最多省 96%，质量接近最优 |
 | `ecoclaw/eco` | 成本优先 | 20% | 80% | 极致省钱 — 最多省 98% |
+
+
+## ⚡ EcoClaw vs ClawRouter
+
+| | EcoClaw | ClawRouter |
+|---|---|---|
+| **路由** | 智能匹配 — 基于真实评测数据，为每个任务自动选最佳模型 | 静态规则 — 关键词匹配 + 硬编码模型表 |
+| **计费** | 标准 OpenRouter API Key | 加密钱包 + USDC 微支付（x402） |
+| **上手** | `npm install` 即用 | 需要配钱包、充值 USDC |
 
 
 ## 🚀 快速开始
